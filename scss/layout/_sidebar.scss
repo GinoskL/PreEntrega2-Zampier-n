@@ -1,0 +1,16 @@
+.card {
+    background-color: gray;
+    animation: animate__slideInUp 1ms; 
+    transition: transform 0.3s ease; 
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+
+.img-fluid {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 7px;
+}

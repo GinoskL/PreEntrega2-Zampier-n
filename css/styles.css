@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2, h3, h1, .navbar, .container, .row p, .form-group {
+  color: white;
+}
+
+footer p {
+  color: rgb(100, 100, 100);
+}
+
+body {
+  background-color: #212529;
+}
+
+header h2, header h3 {
+  color: white;
+}
+
+footer {
+  background-color: #212529;
+  padding: 50px 0;
+  margin-top: 100px;
+}
+
+.card {
+  background-color: gray;
+  animation: animate__slideInUp 1ms;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 7px;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.collapse {
+  font-weight: bold;
+}
+
+.c-item {
+  height: 875px;
+}
+
+.c-img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.carousel-inner button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: blueviolet;
+}
+.carousel-inner button:hover {
+  background-color: rgb(92, 31, 150);
+}/*# sourceMappingURL=styles.css.map */
