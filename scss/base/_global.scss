@@ -1,0 +1,77 @@
+a {
+    text-decoration: none;
+    font-size: 17px;
+    color: $blanco !important;
+}
+
+p {
+    font-size: 17px;
+}
+
+a:hover {
+    color: $accent-color !important;
+}
+
+i {
+    font-size: 30px;
+}
+
+.fa-brands {
+    color: $accent-color;
+}
+
+.fa-brands:hover {
+    color: $button-hover-color;
+}
+
+.text-primary {
+    color: $blanco !important;
+}
+
+.text-primary1 {
+    color: rgb(131, 131, 131);
+}
+
+.conocenos {
+    padding: 100px;
+}
+
+.btn {
+    background-color: $accent-color !important;
+    border: $accent-color;
+}
+
+.btn:hover {
+    color: rgb(147, 47, 241) !important;
+    border: $accent-color;
+    background-color: $button-hover-color !important;
+}
+
+.card {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-to-top {
+    background-color: $accent-color !important;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-to-top:hover{
+    color: rgb(72, 24, 117) !important;
+}
+
+.btn-to-top i {
+    font-size: 20px;
+}

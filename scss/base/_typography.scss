@@ -3,7 +3,24 @@ body {
 }
 
 h2, h3, h1, .navbar, .container, .row p, .form-group {
-    color: white;
+    color: $blanco;
+}
+
+a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+p {
+    font-size: 17px;
+}
+
+a:hover {
+    color: #0d6efd !important;
+}
+
+i {
+    font-size: 25px;
 }
 
 footer p {

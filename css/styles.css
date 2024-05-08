@@ -1,25 +1,3 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-family: Arial, sans-serif;
-}
-
-h2, h3, h1, .navbar, .container, .row p, .form-group {
-  color: white;
-}
-
-footer p {
-  color: rgb(100, 100, 100);
-}
-
-body {
-  background-color: #212529;
-}
-
 header h2, header h3 {
   color: white;
 }
@@ -76,4 +54,132 @@ footer {
 }
 .carousel-inner button:hover {
   background-color: rgb(92, 31, 150);
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+    font-size: 26px;
+  }
+  .carousel-caption p {
+    font-size: 15px !important;
+  }
+  .c-item {
+    height: 675px;
+  }
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2, h3, h1, .navbar, .container, .row p, .form-group {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+p {
+  font-size: 17px;
+}
+
+a:hover {
+  color: #0d6efd !important;
+}
+
+i {
+  font-size: 25px;
+}
+
+footer p {
+  color: rgb(100, 100, 100);
+}
+
+body {
+  background-color: #212529;
+}
+
+a {
+  text-decoration: none;
+  font-size: 17px;
+  color: white !important;
+}
+
+p {
+  font-size: 17px;
+}
+
+a:hover {
+  color: blueviolet !important;
+}
+
+i {
+  font-size: 30px;
+}
+
+.fa-brands {
+  color: blueviolet;
+}
+
+.fa-brands:hover {
+  color: rgb(92, 31, 150);
+}
+
+.text-primary {
+  color: white !important;
+}
+
+.text-primary1 {
+  color: rgb(131, 131, 131);
+}
+
+.conocenos {
+  padding: 100px;
+}
+
+.btn {
+  background-color: blueviolet !important;
+  border: blueviolet;
+}
+
+.btn:hover {
+  color: rgb(147, 47, 241) !important;
+  border: blueviolet;
+  background-color: rgb(92, 31, 150) !important;
+}
+
+.card {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-to-top {
+  background-color: blueviolet !important;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-to-top:hover {
+  color: rgb(72, 24, 117) !important;
+}
+
+.btn-to-top i {
+  font-size: 20px;
 }/*# sourceMappingURL=styles.css.map */
