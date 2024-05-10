@@ -66,6 +66,9 @@ footer {
   .c-item {
     height: 675px;
   }
+  .card {
+    margin-top: 50px !important;
+  }
 }
 * {
   box-sizing: border-box;
